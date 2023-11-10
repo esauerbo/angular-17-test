@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { Amplify } from 'aws-amplify';
 import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
+import awsconfig from '../aws-exports';
+
+Amplify.configure(awsconfig);
 
 
 @Component({

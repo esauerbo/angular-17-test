@@ -4,9 +4,6 @@ import { Amplify } from 'aws-amplify';
 import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
 
 import { AppComponent } from './app.component';
-import awsmobile from '../aws-exports';
-
-Amplify.configure(awsmobile);
 
 @NgModule({
   declarations: [AppComponent],
